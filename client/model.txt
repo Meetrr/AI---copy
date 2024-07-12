@@ -1,0 +1,22 @@
+
+=> Models
+
+  -> model_name
+  -> base_model
+  -> config_file
+  -> precision
+  -> model_type: [TensorRT, PyTorch]
+  -> dataset_id
+  -> last_epoch_path
+  // -> dataset_name
+
+
+
+=> Datasets
+
+  -> dataset_name
+  -> config_file
+  -> train_imgs
+  -> valid_imgs
+  -> test_imgs
+  -> project_type:  [object_detection, instance_segmentation]
